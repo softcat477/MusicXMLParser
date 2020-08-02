@@ -4,6 +4,7 @@
 
 2. Parse musicXML files.
     `pythone Parse.py`
+    
    Input:
     * `<Score_name>.xml`
 
@@ -14,6 +15,7 @@
 
 3. Generate MIDI files from csv files. Validate the correctness of csv files.
     `python3 ToMidi.py`
+    
     Input:
     * `<Score_name>_meta.csv`
     * `<Score_name>_note_keys.csv`
