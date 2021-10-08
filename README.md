@@ -7,6 +7,8 @@
     3. Notes, rests, lyrics, slur, and tie.
 * Generate `midi` using the retrieved `csv` files.
 
+See [here](https://github.com/softcat477/TwnScore) for example.
+
 ## Steps
 1. Download scores from the google drive.
     `python3 DownloadGDrive --ID <ID of the google drive>`
