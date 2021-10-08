@@ -1,4 +1,13 @@
 # MusicXMLParser
+
+## What can I do?
+* Parse a musicXML file and retrieve informations to `csv` files
+    1. Key signature, Time signature, Pentatonic in the sub-title, and additional comments near the composer.
+    2. Chords in each measure.
+    3. Notes, rests, lyrics, slur, and tie.
+* Generate `midi` using the retrieved `csv` files.
+
+## Steps
 1. Download scores from the google drive.
     `python3 DownloadGDrive --ID <ID of the google drive>`
 
